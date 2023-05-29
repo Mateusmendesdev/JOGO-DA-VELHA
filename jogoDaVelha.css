@@ -11,7 +11,8 @@ body {
     align-items: center;
     justify-content: center;
     background-image:  #f7f7f7;
-    background-color: aqua;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,28,0.30593487394957986) 44%, rgba(0,212,255,1) 100%);
 }
 
 main {
@@ -45,8 +46,16 @@ hr{
     background: white;
 }
 
+button {
+   border-radius: 15px; 
+    
+}
+
 button:hover {
     transform: scale(1.1);
     transition: all 0.5s;
+    background: rgb(230,45,253);
+    background: linear-gradient(0deg, rgba(230,45,253,1) 51%, rgba(195,34,154,0.3647584033613446) 84%);
+   
     
   }
